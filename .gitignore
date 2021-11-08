@@ -1,0 +1,13 @@
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+# remove datasets directory
+/dataset
+
+# remove ipynb_checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
